@@ -8,7 +8,7 @@ type Props = {};
 
 const Navbar = (props: Props) => {
   return (
-    <div className="sticky top-0 w-full shadow-sm bg-white">
+    <div className="sticky top-0 w-full shadow-sm bg-white z-50">
       <div className="container flex flex-row justify-between items-center py-5 font-semibold font-inter">
         <Link href="/">
           <Image src={logo} alt="logo" />
