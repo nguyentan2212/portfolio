@@ -11,7 +11,7 @@ const GetCV = (props: Props) => {
           SO WHAT IS NEXT?
         </p>
         <h1 className="font-heading text-center text-3xl md:text-7xl text-white font-extrabold max-w-4xl mx-auto">
-          Are You Ready? Let's Get To Work!
+          {"Are You Ready? Let's Get To Work!"}
         </h1>
         <Fade
           cascade
