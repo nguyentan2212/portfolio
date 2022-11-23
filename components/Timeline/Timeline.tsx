@@ -1,29 +1,29 @@
 import React from "react";
-import Experience from "./Experience";
+import TimelineItem from "./TimelineItem";
 
 type Props = {};
 
-const ExperienceList = (props: Props) => {
+const Timeline = (props: Props) => {
   return (
-    <div className="container pb-24 text-3xl flex flex-col">
+    <div className="container py-20 text-3xl flex flex-col">
       <h2 className="section-title">My Experience</h2>
       <div className="grid grid-cols-2 gap-8">
-        <Experience
+        <TimelineItem
           title="Computer Science"
           subtitle="Stanford University - 2003"
           desc="Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut."
         />
-        <Experience
+        <TimelineItem
           title="Computer Science"
           subtitle="Stanford University - 2003"
           desc="Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut."
         />
-        <Experience
+        <TimelineItem
           title="Computer Science"
           subtitle="Stanford University - 2003"
           desc="Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut."
         />
-        <Experience
+        <TimelineItem
           title="Computer Science"
           subtitle="Stanford University - 2003"
           desc="Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut."
@@ -33,4 +33,4 @@ const ExperienceList = (props: Props) => {
   );
 };
 
-export default ExperienceList;
+export default Timeline;
