@@ -19,14 +19,14 @@ const HireMeForm = (props: Props) => {
         </p>
         <p className="text-base text-gray font-inter mb-8">
           <Link
-            className="font-bold hover:text-primary ease-in-out duration-200"
+            className="font-bold transition-all hover:text-primary ease-in-out duration-200"
             href="tel:0945241778"
           >
             0945 241 778
           </Link>
           {" or email: "}
           <Link
-            className="font-bold hover:text-primary ease-in-out duration-200"
+            className="font-bold transition-all hover:text-primary ease-in-out duration-200"
             href="mailto:nguyentan2212@gmail.com"
           >
             nguyentan2212@gmail.com
