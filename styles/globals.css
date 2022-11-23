@@ -1,32 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@300;400;500;600;700;800&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  h1, h2, h3, h4, h5, h6 {
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-main text-black font-bold;
+  }
 }
 
-}
+@layer components {
+  .btn-gradient {
+    @apply before:bg-gradient before:absolute before:inset-0 before:w-full before:h-full before:-z-10 overflow-hidden before:transition-all before:duration-500 before:ease-linear before:hover:w-0 before:hover:left-1/2 hover:text-primary ring-primary ring-2;
+  }
 
-@layer components{
-    .btn-gradient {
-        @apply before:bg-gradient before:absolute before:inset-0 before:w-full before:h-full before:-z-10 overflow-hidden before:transition-all before:duration-500 before:ease-linear before:hover:w-0 before:hover:left-1/2 hover:text-primary ring-primary ring-2
-    }
+  .navbar-item {
+    @apply relative py-[3px] before:absolute before:w-0 before:h-[3px] before:bg-primary before:hover:w-full before:inset-x-0 before:bottom-0 before:transition-all before:duration-500 before:ease-linear;
+  }
 
-    .navbar-item {
-        @apply relative py-[3px] before:absolute before:w-0 before:h-[3px] before:bg-primary before:hover:w-full before:inset-x-0 before:bottom-0 before:transition-all before:duration-500 before:ease-linear
-    }
+  .btn-social {
+    @apply p-2 bg-slate-300 rounded-full hover:bg-primary hover:text-white;
+  }
 
-    .btn-social{
-        @apply p-2 bg-slate-300 rounded-full hover:bg-primary hover:text-white;
-    }
+  .section-title {
+    @apply font-heading pl-24 relative mb-12 before:absolute before:inset-x-0 before:top-1/2 before:w-[70px] before:h-[1px] before:bg-black;
+  }
 
-    .section-title {
-        @apply font-heading pl-24 relative mb-12 before:absolute before:inset-x-0 before:top-1/2 before:w-[70px] before:h-[1px] before:bg-black;
-    }
+  .btn-rounded-gradient {
+    @apply p-2 bg-slate-600 rounded-full text-white overflow-hidden relative before:absolute before:rounded-full before:w-0 before:h-0 before:top-1/2 before:left-1/2 before:bg-gradient before:transition-all before:duration-500 before:ease-in-out before:hover:w-full before:hover:h-full before:hover:inset-0;
+  }
+
+  .link-list-item {
+    @apply relative transition-all duration-500 ease-in-out hover:pl-5 hover:text-primary before:absolute before:inset-x-0 before:bottom-1/2 before:w-0 before:h-[2px] before:bg-primary before:transition-all before:duration-500 before:ease-in-out before:hover:w-3
+  }
 }
