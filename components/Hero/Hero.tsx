@@ -45,7 +45,7 @@ const Hero = (props: Props) => {
           <FaGithubAlt size={15} />
         </Link>
       </div>
-      <button className="my-6 py-3 px-4 bg-[#f9004d] hover:bg-black rounded text-white flex flex-row items-center gap-2 hover:duration-150 transition-all ease-linear">
+      <button className="my-6 py-3 px-4 bg-primary hover:bg-black rounded-md text-white font-semibold flex flex-row items-center gap-2 duration-150 transition-all ease-linear">
         Contact me
         <FaAngleRight />
       </button>
