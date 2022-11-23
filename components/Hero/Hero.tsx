@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import avatar from "../../public/images/author.jpg";
 import {
   FaLinkedinIn,
@@ -32,18 +31,18 @@ const Hero = (props: Props) => {
         tempor incididunt ut labore et dolore magna aliqua.
       </p>
       <div className="flex flex-row justify-center items-center gap-3">
-        <Link className="btn-social" href="https://www.linkedin.com/">
+        <a className="btn-social" target="_blank" href="https://www.linkedin.com/in/nguyentan2212">
           <FaLinkedinIn size={15} />
-        </Link>
-        <Link className="btn-social" href="https://www.linkedin.com/">
+        </a>
+        <a className="btn-social" target="_blank" href="https://www.facebook.com/tannguyenminh2212">
           <FaFacebookF size={15} />
-        </Link>
-        <Link className="btn-social" href="https://www.linkedin.com/">
+        </a>
+        <a className="btn-social" target="_blank" href="https://www.t.me/nguyentan2212">
           <FaTelegramPlane size={15} />
-        </Link>
-        <Link className="btn-social" href="https://www.linkedin.com/">
+        </a>
+        <a className="btn-social" target="_blank" href="https://github.com/nguyentan2212">
           <FaGithubAlt size={15} />
-        </Link>
+        </a>
       </div>
       <button className="my-6 py-3 px-4 bg-primary hover:bg-black rounded-md text-white font-semibold flex flex-row items-center gap-2 duration-150 transition-all ease-linear">
         Contact me
