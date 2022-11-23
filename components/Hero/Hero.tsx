@@ -21,7 +21,7 @@ const Hero = (props: Props) => {
       />
       <p className="font-semibold">Welcome To My Portfolio!</p>
       <h1 className="text-2xl md:text-6xl leading-[1.3] font-heading">
-        Hi, I'm Nguyen Minh Tan
+        {"Hi, I'm Nguyen Minh Tan"}
       </h1>
       <h1 className="text-[#f9004d] text-2xl md:text-6xl leading-[1.3] font-heading">
         Web Developer.
@@ -31,16 +31,16 @@ const Hero = (props: Props) => {
         tempor incididunt ut labore et dolore magna aliqua.
       </p>
       <div className="flex flex-row justify-center items-center gap-3">
-        <a className="btn-social" target="_blank" href="https://www.linkedin.com/in/nguyentan2212">
+        <a className="btn-social" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/nguyentan2212">
           <FaLinkedinIn size={15} />
         </a>
-        <a className="btn-social" target="_blank" href="https://www.facebook.com/tannguyenminh2212">
+        <a className="btn-social" target="_blank" rel="noreferrer" href="https://www.facebook.com/tannguyenminh2212">
           <FaFacebookF size={15} />
         </a>
-        <a className="btn-social" target="_blank" href="https://www.t.me/nguyentan2212">
+        <a className="btn-social" target="_blank" rel="noreferrer" href="https://www.t.me/nguyentan2212">
           <FaTelegramPlane size={15} />
         </a>
-        <a className="btn-social" target="_blank" href="https://github.com/nguyentan2212">
+        <a className="btn-social" target="_blank" rel="noreferrer" href="https://github.com/nguyentan2212">
           <FaGithubAlt size={15} />
         </a>
       </div>

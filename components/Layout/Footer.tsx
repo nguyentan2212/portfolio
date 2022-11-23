@@ -29,28 +29,28 @@ const Footer = (props: Props) => {
           <div className="flex flex-row justify-start items-center gap-3">
             <a
               className="btn-rounded-gradient"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               href="https://www.linkedin.com/in/nguyentan2212"
             >
               <FaLinkedinIn className="relative z-10" size={15} />
             </a>
             <a
               className="btn-rounded-gradient"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               href="https://www.facebook.com/tannguyenminh2212"
             >
               <FaFacebookF className="relative z-10" size={15} />
             </a>
             <a
               className="btn-rounded-gradient"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               href="https://www.t.me/nguyentan2212"
             >
               <FaTelegramPlane className="relative z-10" size={15} />
             </a>
             <a
               className="btn-rounded-gradient"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               href="https://github.com/nguyentan2212"
             >
               <FaGithubAlt className="relative z-10" size={15} />
@@ -90,7 +90,7 @@ const Footer = (props: Props) => {
               </div>
               <a
                 className="text-base text-gray font-inter transition-all ease-in-out duration-300 hover:text-primary"
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 href="https://www.facebook.com/tannguyenminh2212"
               >
                 @tannguyenminh2212
