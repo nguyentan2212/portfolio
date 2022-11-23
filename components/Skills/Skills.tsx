@@ -6,11 +6,11 @@ type Props = {};
 
 const Skills = (props: Props) => {
   return (
-    <div className="container py-24 text-3xl flex flex-col">
+    <div className="container py-20 text-3xl flex flex-col">
       <h2 className="section-title">
         My Skills
       </h2>
-      <div className="grid grid-cols-3 gap-6">
+      <div className="grid grid-cols-3 gap-8">
         <Skill
           icon={<FaGithubAlt size={40} />}
           title="Product Design"
