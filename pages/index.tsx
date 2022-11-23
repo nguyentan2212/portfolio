@@ -2,6 +2,7 @@ import Hero from "../components/Hero";
 import Skills from "../components/Skills";
 import Timeline from "../components/Timeline";
 import HireMeForm from "../components/HireMeForm";
+import GetCV from "../components/GetCV";
 
 export default function Home() {
   return (
@@ -12,8 +13,9 @@ export default function Home() {
       <div className="w-full h-[1px] bg-slate-200"></div>
       <Timeline />
       <div className="w-full h-[1px] bg-slate-200"></div>
-      <HireMeForm />
+      <GetCV />
       <div className="w-full h-[1px] bg-slate-200"></div>
+      <HireMeForm />
       <footer></footer>
     </div>
   );
