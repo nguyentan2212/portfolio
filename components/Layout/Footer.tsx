@@ -16,7 +16,7 @@ type Props = {};
 const Footer = (props: Props) => {
   return (
     <footer className="bg-[#fbf8f8] w-full font-inter">
-      <div className="container pt-20 pb-10 grid grid-cols-3 gap-16">
+      <div className="container pt-10 md:pt-20 pb-10 grid grid-cols-1 lg:grid-cols-3 gap-10 md:gap-16">
         <div className="flex flex-col gap-8">
           <Link href="/">
             <Image src={logo} alt="logo" />

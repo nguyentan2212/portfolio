@@ -7,7 +7,7 @@ import Footer from "../components/Layout/Footer";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Hero />
       <div className="w-full h-[1px] bg-slate-200"></div>
       <Skills />
@@ -17,7 +17,8 @@ export default function Home() {
       <GetCV />
       <div className="w-full h-[1px] bg-slate-200"></div>
       <HireMeForm />
+      <div className="w-full h-[1px] bg-slate-200"></div>
       <Footer />
-    </div>
+    </>
   );
 }

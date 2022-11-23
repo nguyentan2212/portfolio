@@ -6,9 +6,9 @@ type Props = {};
 const Timeline = (props: Props) => {
   return (
     <div className="bg-[#fbf8f8] w-full">
-      <div className="container py-20 text-3xl flex flex-col">
+      <div className="container py-10 md:py-20 text-3xl flex flex-col">
         <h2 className="section-title">My Experience</h2>
-        <div className="grid grid-cols-2 gap-8">
+        <div className="grid grid:grid-cols-1 lg:grid-cols-2 gap-8">
           <TimelineItem
             title="Computer Science"
             subtitle="Stanford University - 2003"

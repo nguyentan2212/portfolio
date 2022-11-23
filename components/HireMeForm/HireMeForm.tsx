@@ -10,7 +10,7 @@ const HireMeForm = (props: Props) => {
     e.preventDefault();
   };
   return (
-    <div className="container py-20 grid grid-cols-2">
+    <div className="container py-10 md:py-20 grid grid-cols-1 lg:grid-cols-2 gap-5">
       <Image src={banner} alt="banner" />
       <div className="flex flex-col items-center">
         <h2 className="font-heading text-4xl text-black mb-4">Hire Me!</h2>
@@ -33,7 +33,7 @@ const HireMeForm = (props: Props) => {
           </Link>
         </p>
         <form
-          className="w-full grid grid-cols-2 gap-7 font-inter"
+          className="w-full flex flex-col md:grid gap-4 md:grid-cols-2 md:gap-7 font-inter"
           onSubmit={submitHandler}
         >
           <input
@@ -61,13 +61,13 @@ const HireMeForm = (props: Props) => {
             placeholder="Subject"
           ></input>
           <textarea
-            className="col-span-2 min-h-[150px] rounded-md border-none bg-slate-200 focus:ring-1 focus:ring-primary py-4"
+            className="md:col-span-2 min-h-[150px] rounded-md border-none bg-slate-200 focus:ring-1 focus:ring-primary py-4"
             name="message"
             placeholder="Write your message..."
           />
           <button
             type="submit"
-            className="relative mx-auto col-span-2 rounded-md font-bold font-inter text-white px-4 py-2 bg-transparent btn-gradient"
+            className="relative mx-auto md:col-span-2 rounded-md font-bold font-inter text-white px-4 py-2 bg-transparent btn-gradient"
           >
             Send Message
           </button>
