@@ -31,20 +31,20 @@ const Hero = (props: Props) => {
         tempor incididunt ut labore et dolore magna aliqua.
       </p>
       <div className="flex flex-row justify-center items-center gap-3">
-        <a className="btn-social" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/nguyentan2212">
+        <a className="btn-rounded-gradient" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/nguyentan2212">
           <FaLinkedinIn size={15} />
         </a>
-        <a className="btn-social" target="_blank" rel="noreferrer" href="https://www.facebook.com/tannguyenminh2212">
+        <a className="btn-rounded-gradient" target="_blank" rel="noreferrer" href="https://www.facebook.com/tannguyenminh2212">
           <FaFacebookF size={15} />
         </a>
-        <a className="btn-social" target="_blank" rel="noreferrer" href="https://www.t.me/nguyentan2212">
+        <a className="btn-rounded-gradient" target="_blank" rel="noreferrer" href="https://www.t.me/nguyentan2212">
           <FaTelegramPlane size={15} />
         </a>
-        <a className="btn-social" target="_blank" rel="noreferrer" href="https://github.com/nguyentan2212">
+        <a className="btn-rounded-gradient" target="_blank" rel="noreferrer" href="https://github.com/nguyentan2212">
           <FaGithubAlt size={15} />
         </a>
       </div>
-      <button className="my-6 py-3 px-4 bg-primary hover:bg-black rounded-md text-white font-semibold flex flex-row items-center gap-2 duration-150 transition-all ease-linear">
+      <button className="relative z-0 btn-gradient my-6 py-3 px-4 text-lg rounded-md text-white font-semibold flex flex-row items-center gap-2">
         Contact me
         <FaAngleRight />
       </button>

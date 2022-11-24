@@ -15,11 +15,12 @@ const GetCV = (props: Props) => {
         </h1>
         <Fade
           cascade
+          duration={500}
           direction="up"
           className="flex flex-row justify-center mt-10"
         >
           <button
-            className="py-2 px-6 md:py-4 md:px-9 bg-white hover:bg-black rounded-md text-primary hover:text-white hover:duration-150 transition-all ease-linear font-main font-semibold text-lg"
+            className="py-3 px-4 bg-white hover:bg-black rounded-md text-primary hover:text-white hover:duration-150 transition-all ease-linear font-main font-semibold text-lg"
             onClick={() => console.log("click!")}
           >
             Get My CV

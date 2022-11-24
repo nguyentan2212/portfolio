@@ -7,7 +7,7 @@ type Props = {
 
 const Layout = ({ children }: Props) => {
   return (
-    <div className="relative w-screen font-main text-base font-normal">
+    <div className="relative font-main text-base font-normal">
       <Navbar />
       {children}
     </div>

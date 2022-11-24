@@ -32,28 +32,28 @@ const Footer = (props: Props) => {
               target="_blank" rel="noreferrer"
               href="https://www.linkedin.com/in/nguyentan2212"
             >
-              <FaLinkedinIn className="relative z-10" size={15} />
+              <FaLinkedinIn size={15} />
             </a>
             <a
               className="btn-rounded-gradient"
               target="_blank" rel="noreferrer"
               href="https://www.facebook.com/tannguyenminh2212"
             >
-              <FaFacebookF className="relative z-10" size={15} />
+              <FaFacebookF size={15} />
             </a>
             <a
               className="btn-rounded-gradient"
               target="_blank" rel="noreferrer"
               href="https://www.t.me/nguyentan2212"
             >
-              <FaTelegramPlane className="relative z-10" size={15} />
+              <FaTelegramPlane size={15} />
             </a>
             <a
               className="btn-rounded-gradient"
               target="_blank" rel="noreferrer"
               href="https://github.com/nguyentan2212"
             >
-              <FaGithubAlt className="relative z-10" size={15} />
+              <FaGithubAlt size={15} />
             </a>
           </div>
         </div>

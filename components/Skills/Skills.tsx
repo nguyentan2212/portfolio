@@ -10,7 +10,7 @@ const Skills = (props: Props) => {
     <div className="container py-10 md:py-20 text-3xl flex flex-col">
       <h2 className="section-title">My Skills</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <Fade direction="up">
+        <Fade direction="up" duration={500}>
           <Skill
             icon={<SiJavascript size={40} />}
             title="Javascript"
