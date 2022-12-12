@@ -47,6 +47,17 @@ const Navbar = (props: Props) => {
           >
             Experience
           </ScrollLink>
+          <ScrollLink
+            to="contact"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            duration={600}
+            isDynamic={true}
+            className="navbar-item cursor-pointer"
+          >
+            Contact
+          </ScrollLink>
           <a
             className="relative rounded-full text-white px-4 py-2 bg-transparent btn-gradient"
             href="Nguyen-Minh-Tan-CV.pdf"
