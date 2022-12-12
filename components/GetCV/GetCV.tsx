@@ -19,12 +19,13 @@ const GetCV = (props: Props) => {
           direction="up"
           className="flex flex-row justify-center mt-10"
         >
-          <button
+          <a
             className="py-3 px-4 bg-white hover:bg-black rounded-md text-primary hover:text-white hover:duration-150 transition-all ease-linear font-main font-semibold text-lg"
-            onClick={() => console.log("click!")}
+            href="Nguyen-Minh-Tan-CV.pdf"
+            download
           >
             Get My CV
-          </button>
+          </a>
         </Fade>
       </div>
     </div>

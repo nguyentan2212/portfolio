@@ -47,20 +47,13 @@ const Navbar = (props: Props) => {
           >
             Experience
           </ScrollLink>
-          <button
+          <a
             className="relative rounded-full text-white px-4 py-2 bg-transparent btn-gradient"
-            onClick={() =>
-              scroller.scrollTo("contact", {
-                spy: true,
-                smooth: true,
-                hashSpy: true,
-                duration: 500,
-                isDynamic: true,
-              })
-            }
+            href="Nguyen-Minh-Tan-CV.pdf"
+            download
           >
-            Contact
-          </button>
+            My CV
+          </a>
         </div>
       </div>
     </div>
