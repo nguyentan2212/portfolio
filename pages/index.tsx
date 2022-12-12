@@ -3,7 +3,6 @@ import Skills from "../components/Skills";
 import Timeline from "../components/Timeline";
 import HireMeForm from "../components/HireMeForm";
 import GetCV from "../components/GetCV";
-import Footer from "../components/Layout/Footer";
 
 export default function Home() {
   return (
@@ -18,7 +17,6 @@ export default function Home() {
       <div className="w-full h-[1px] bg-slate-200"></div>
       <HireMeForm />
       <div className="w-full h-[1px] bg-slate-200"></div>
-      <Footer />
     </>
   );
 }
