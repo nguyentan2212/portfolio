@@ -22,9 +22,7 @@ const Footer = (props: Props) => {
             <Image src={logo} alt="logo" />
           </Link>
           <p className="text-base text-gray">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam.
+          I will strive to learn and develop my knowledge and skills so that I can become a senior developer in the next three years and achieve much in my career.
           </p>
           <div className="flex flex-row justify-start items-center gap-3">
             <a
