@@ -15,6 +15,7 @@ const TimelineItem = (props: Props) => {
       </p>
       <a
         target="_blank"
+        rel="noreferrer"
         href={props.url}
         className="text-xl text-black font-heading font-bold"
       >
