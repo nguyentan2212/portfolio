@@ -1,4 +1,5 @@
 import React from "react";
+import { Element } from "react-scroll";
 import Skill from "./Skill";
 import { SiTypescript, SiJavascript, SiCsharp, SiCplusplus, SiReact, SiSolidity } from "react-icons/si";
 import { Fade } from "react-awesome-reveal";
@@ -7,7 +8,7 @@ type Props = {};
 
 const Skills = (props: Props) => {
   return (
-    <div className="container py-10 md:py-20 text-3xl flex flex-col">
+    <Element name="skills" className="container py-10 md:py-20 text-3xl flex flex-col">
       <h2 className="section-title">My Skills</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <Fade direction="up" duration={500}>
@@ -43,7 +44,7 @@ const Skills = (props: Props) => {
           />
         </Fade>
       </div>
-    </div>
+    </Element>
   );
 };
 

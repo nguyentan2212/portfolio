@@ -4,6 +4,7 @@ type Props = {
   title: string;
   subtitle: string;
   desc: string;
+  url: string;
 };
 
 const TimelineItem = (props: Props) => {
@@ -12,7 +13,13 @@ const TimelineItem = (props: Props) => {
       <p className="text-base text-gray font-inter font-semibold">
         {props.subtitle}
       </p>
-      <h3 className="text-xl text-black font-heading">{props.title}</h3>
+      <a
+        target="_blank"
+        href={props.url}
+        className="text-xl text-black font-heading font-bold"
+      >
+        {props.title}
+      </a>
       <p className="text-gray text-base">{props.desc}</p>
     </div>
   );

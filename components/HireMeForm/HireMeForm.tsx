@@ -1,6 +1,7 @@
 import React, { FormEvent } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Element } from "react-scroll";
 import banner from "../../public/images/it-service.png";
 
 type Props = {};
@@ -10,7 +11,7 @@ const HireMeForm = (props: Props) => {
     e.preventDefault();
   };
   return (
-    <div className="container py-10 md:py-20 grid grid-cols-1 lg:grid-cols-2 gap-5">
+    <Element name="contact" className="container py-10 md:py-20 grid grid-cols-1 lg:grid-cols-2 gap-5">
       <Image src={banner} alt="banner" />
       <div className="flex flex-col items-center">
         <h2 className="font-heading text-4xl text-black mb-4">Hire Me!</h2>
@@ -73,7 +74,7 @@ const HireMeForm = (props: Props) => {
           </button>
         </form>
       </div>
-    </div>
+    </Element>
   );
 };
 
