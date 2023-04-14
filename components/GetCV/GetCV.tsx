@@ -21,8 +21,9 @@ const GetCV = (props: Props) => {
         >
           <a
             className="py-3 px-4 bg-white hover:bg-black rounded-md text-primary hover:text-white hover:duration-150 transition-all ease-linear font-main font-semibold text-lg"
-            href="Nguyen-Minh-Tan-CV.pdf"
-            download
+            href="https://www.topcv.vn/xem-cv/DVcNAAtRBVRXBQUCBgFZBlIBBFZSUFZUUgMAUw8b78"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Get My CV
           </a>
