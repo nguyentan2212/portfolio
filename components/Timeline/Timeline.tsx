@@ -12,9 +12,15 @@ const Timeline = (props: Props) => {
         <div className="grid grid:grid-cols-1 lg:grid-cols-2 gap-8">
           <TimelineItem
             title="Personal Portfolio"
-            subtitle="Nov 2022 - Dec 2022"
+            subtitle="Jan 2023 - Apr 2022"
             url="https://github.com/nguyentan2212/portfolio"
             desc="Created a portfolio website showcasing my personal information using NextJs and TypeScript. This project uses GitHub to manage source code and is deployed on Vercel. Technologies used: NextJs, TypeScript, Vercel."
+          />
+          <TimelineItem
+            title="DirectX Game"
+            subtitle="Oct 2022 - Jan 2023"
+            url="https://github.com/nguyentan2212/DirectXGame"
+            desc="A simple clone of Super Mario Bros 3. It includes world map and the first scene of map 1. Technologies used: C++, DirectX 10."
           />
           <TimelineItem
             title="UIT E-Learning"
